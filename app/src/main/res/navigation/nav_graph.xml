@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/launchScreenFragment">
+
+    <fragment
+        android:id="@+id/launchScreenFragment"
+        android:name="amantur.yantarkg.presenter.LaunchScreenFragment"
+        android:label="fragment_laucnh_screen"
+        tools:layout="@layout/fragment_laucnh_screen" />
+</navigation>
